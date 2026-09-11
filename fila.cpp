@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//declaração da estrutura do nó
+//declaraÃ§Ã£o da estrutura do nÃ³
 struct no {
 	int numero;
 	struct no *proximo;
