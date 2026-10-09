@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 	int main(){
-		//declaraÁ„o de vari·vel
+		//declara√ß√£o de vari√°vel
 		int vetorOriginal[5];
 		int vetorInvertido[5];
 		int i;
 		
 		//entrada de dados
 		for (int i = 0 ; i < 5 ; i++) {
-			printf("Digite o valor da posiÁ„o %d: ", i);
+			printf("Digite o valor da posi√ß√£o %d: ", i);
 			scanf("%d", &vetorOriginal[i]);
 			
 		}
@@ -17,12 +17,12 @@
 			vetorInvertido[5 - 1 - i] = vetorOriginal[i]; //importante [5 - 1 - i]
 		}
 		
-		//saÌda de dados
+		//sa√≠da de dados
 		for (int i = 0 ; i < 5 ; i++) {
 		
 		printf ("vetorInvertido[%d] = %d\n", i, vetorInvertido[i]);
 		
 		}
-		//Conclus„o
+		//Conclus√£o
 		return 0;
 	}
