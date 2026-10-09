@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-	// declaração de variaveis
+	// declaraÃ§Ã£o de variaveis
 	int matrizOriginal[2][3];
 	int matrizTransposta[3][2];
 	int i;
