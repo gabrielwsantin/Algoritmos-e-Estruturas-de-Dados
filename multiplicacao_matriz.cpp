@@ -5,7 +5,7 @@
 #define SOMATORIO  3
 
 int main(){
-	// declaração de variaveis
+	// declaraÃ§Ã£o de variaveis
 	int operando1[LINHA][SOMATORIO];
 	int operando2[SOMATORIO][COLUNA];
 	int resultado[LINHA][COLUNA];
